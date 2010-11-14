@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "constants.h",
      "extconf.rb",
      "lib/usb.rb",
+     "ruby-usb.gemspec",
      "sample/usb-power",
      "usb.c"
   ]
