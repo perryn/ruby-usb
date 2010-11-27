@@ -24,17 +24,25 @@ LGPL
 * ruby : http://www.ruby-lang.org/
 * libusb 0.1 : http://libusb.sourceforge.net/
 
-== Download
+== Installing via make
 
-* latest release: http://www.a-k-r.org/ruby-usb/ruby-usb-0.2.tar.gz
+* Download:
+** latest release: http://www.a-k-r.org/ruby-usb/ruby-usb-0.2.tar.gz
+**development version: http://github.com/akr/ruby-usb
 
-* development version: http://github.com/akr/ruby-usb
-
-== Install
+*Install
 
   % ruby extconf.rb 
   % make
   % make install
+
+== Installing as a gem
+
+  % gem install ruby-usb
+
+On OSX you may need to specify your architecure. 
+For example:
+  % ARCHFLAGS="-arch x86_64" gem install ruby-usb
 
 == Reference Manual
 
@@ -46,3 +54,4 @@ http://www.a-k-r.org/ruby-usb/rdoc/
 * USB.org : http://www.usb.org/
 * AC Power Control through USB : http://www.gniibe.org/ac-power-by-usb/ac-power-control.html
 * How To Control USB Missile Launcher on Linux : http://blog.taragana.com/index.php/archive/how-to-control-usb-missile-launcher-on-linux/
+
